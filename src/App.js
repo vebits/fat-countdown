@@ -12,16 +12,23 @@ function App() {
     } else {
       // Render a countdown
       return (
-        <span>
-          {days} dager {hours} timer {minutes} minutter {seconds} sekunder
-        </span>
+        <div className="main">
+          <h1 data-heading="SHINE">Tid til FAT</h1>
+          <div className="timer">
+            {days} dager {" "}
+            {hours} timer{" "}
+            {minutes} minutter
+            <p></p>
+            {seconds} sekunder
+          </div>
+        </div>
       );
     }
   };
 
   return (
     <div className="App">
-      <span>Tid til FAT:</span>
+      
       <br />
       <Countdown date={new Date("2023-10-02T09:00:00")} renderer={renderer}>
         <Completionist />
