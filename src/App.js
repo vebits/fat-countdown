@@ -13,6 +13,7 @@ function App() {
       // Render a countdown
       return (
         <div className="main">
+          <img src="/bk.png" />
           <h1 data-heading="SHINE">Tid til FAT</h1>
           <div className="timer">
             {days} dager {" "}
