@@ -43,7 +43,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 50px;
+  font-size: 42px;
 }
   
 .timer {
@@ -58,7 +58,7 @@ h1 {
 }
 
 input {
-  font-size: 50px;
+  font-size: 42px;
   background-color: transparent;
   border: none;
   color: #fff;
@@ -67,7 +67,7 @@ input {
   
 p {
   color: #fff;
-  font-size: 50px;
+  font-size: 42px;
   padding-left: 8px;
   padding-right: 17px
 }
