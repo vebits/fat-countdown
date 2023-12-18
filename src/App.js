@@ -14,7 +14,7 @@ function App() {
       return (
         <div className="main">
           <img src="/bk.png" />
-          <h1 data-heading="SHINE">Tid til FAT</h1>
+          <h1 data-heading="SHINE">Tid til JAPAN</h1>
           <div className="timer">
             {days} dager {" "}
             {hours} timer{" "}
@@ -31,7 +31,7 @@ function App() {
     <div className="App">
       
       <br />
-      <Countdown date={new Date("2023-10-02T09:00:00")} renderer={renderer}>
+      <Countdown date={new Date("2024-03-24T09:00:00")} renderer={renderer}>
         <Completionist />
       </Countdown>
     </div>
