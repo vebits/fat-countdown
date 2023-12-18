@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Countdown from "react-countdown";
 
-const Completionist = () => <span>You are good to go!</span>;
+const Completionist = () => <span>Kjøh!</span>;
 
 function App() {
   const renderer = ({ days, hours, minutes, seconds, completed }) => {
